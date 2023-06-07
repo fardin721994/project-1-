@@ -45,7 +45,7 @@ Install nodemon as a development dependency:
 npm install --save-dev nodemon
 ```
 
-After that go to package.json file and in the "scripts" part, replace this :
+After that go to the package.json file and in the "scripts" part, replace this :
 
 ```
 "test": "echo \"Error: no test specified\" && exit 1"
@@ -57,7 +57,7 @@ with this:
 "start": "nodemon index.js"
 ```
 
-Now we can start our server using this command:
+From now on we can start our server using this command:
 
 ```
 npm start
